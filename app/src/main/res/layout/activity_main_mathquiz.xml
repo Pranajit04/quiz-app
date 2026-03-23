@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="quizViewModel"
+            type="com.example.quizapp.mathquiz.viewmodal.QuizViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context=".mathquiz.MainActivity_mathquiz">
+
+        <!-- Top Header -->
+        <View
+            android:id="@+id/header_bg"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#1976D2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Question Text Area -->
+        <TextView
+            android:id="@+id/tv_question_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Question"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/header_bg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/header_bg"
+            app:layout_constraintVertical_bias="0.694" />
+
+        <TextView
+            android:id="@+id/tv_question_text"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:text="Welcome to the Quiz App"
+            android:padding="16dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/header_bg" />
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            app:layout_constraintTop_toBottomOf="@id/tv_question_text" />
+
+        <!-- Options RadioGroup -->
+        <RadioGroup
+            android:id="@+id/rg_options"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider1">
+
+            <RadioButton
+                android:id="@+id/rb_option1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="option1"
+                android:layout_marginBottom="16dp"
+                android:paddingStart="12dp"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rb_option2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="option2"
+                android:layout_marginBottom="16dp"
+                android:paddingStart="12dp"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rb_option3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="option3"
+                android:layout_marginBottom="16dp"
+                android:paddingStart="12dp"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rb_option4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="option4"
+                android:paddingStart="12dp"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+        <!-- Bottom Actions -->
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E0E0E0"
+            app:layout_constraintBottom_toTopOf="@id/bottom_buttons_layout" />
+
+        <LinearLayout
+            android:id="@+id/bottom_buttons_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:weightSum="4"
+            app:layout_constraintBottom_toTopOf="@id/tv_correct_option_status">
+
+            <Button
+                android:id="@+id/btn_save_next"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1.2"
+                android:backgroundTint="#2E7D32"
+                android:padding="4dp"
+                android:text="SAVE \u0026 NEXT"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="0.8"
+                android:backgroundTint="#F5F5F5"
+                android:text="CLEAR"
+                android:textColor="#1976D2"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btn_mark_review"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:backgroundTint="#0D47A1"
+                android:text="MARK FOR REVIEW"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:backgroundTint="#0D47A1"
+                android:text="NEXT"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_correct_option_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E3F2FD"
+            android:padding="12dp"
+            android:text="correct_option"
+            android:textColor="#1976D2"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

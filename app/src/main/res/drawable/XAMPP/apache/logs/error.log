@@ -1,0 +1,78 @@
+[Sun Mar 22 13:08:42.789367 2026] [ssl:warn] [pid 22508:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 22 13:08:44.191688 2026] [ssl:warn] [pid 22508:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 22 13:08:44.250679 2026] [mpm_winnt:notice] [pid 22508:tid 456] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Mar 22 13:08:44.250679 2026] [mpm_winnt:notice] [pid 22508:tid 456] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Mar 22 13:08:44.250679 2026] [core:notice] [pid 22508:tid 456] AH00094: Command line: 'D:\\XAMPP\\apache\\bin\\httpd.exe -d D:/XAMPP/apache'
+[Sun Mar 22 13:08:44.285632 2026] [mpm_winnt:notice] [pid 22508:tid 456] AH00418: Parent: Created child process 11912
+[Sun Mar 22 13:08:46.053858 2026] [ssl:warn] [pid 11912:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 22 13:08:46.431081 2026] [ssl:warn] [pid 11912:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 22 13:08:46.484264 2026] [mpm_winnt:notice] [pid 11912:tid 456] AH00354: Child: Starting 150 worker threads.
+[Sun Mar 22 13:29:13.247515 2026] [ssl:warn] [pid 23264:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 22 13:29:13.644732 2026] [ssl:warn] [pid 23264:tid 432] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 22 13:29:13.768023 2026] [mpm_winnt:notice] [pid 23264:tid 432] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Sun Mar 22 13:29:13.768023 2026] [mpm_winnt:notice] [pid 23264:tid 432] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Sun Mar 22 13:29:13.768023 2026] [core:notice] [pid 23264:tid 432] AH00094: Command line: 'D:\\xampp\\apache\\bin\\httpd.exe -d D:/XAMPP/apache'
+[Sun Mar 22 13:29:13.774288 2026] [mpm_winnt:notice] [pid 23264:tid 432] AH00418: Parent: Created child process 16644
+[Sun Mar 22 13:29:14.214531 2026] [ssl:warn] [pid 16644:tid 444] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 22 13:29:14.318840 2026] [ssl:warn] [pid 16644:tid 444] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 22 13:29:14.371619 2026] [mpm_winnt:notice] [pid 16644:tid 444] AH00354: Child: Starting 150 worker threads.
+[Mon Mar 23 01:18:42.527969 2026] [mpm_winnt:notice] [pid 23264:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 23 01:18:44.568848 2026] [mpm_winnt:notice] [pid 16644:tid 444] AH00364: Child: All worker threads have exited.
+[Mon Mar 23 01:18:45.955220 2026] [mpm_winnt:notice] [pid 23264:tid 432] AH00430: Parent: Child process 16644 exited successfully.
+[Mon Mar 23 01:19:31.862933 2026] [ssl:warn] [pid 29284:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 23 01:19:31.981523 2026] [ssl:warn] [pid 29284:tid 472] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 23 01:19:33.142021 2026] [mpm_winnt:notice] [pid 29284:tid 472] AH00455: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 configured -- resuming normal operations
+[Mon Mar 23 01:19:33.142021 2026] [mpm_winnt:notice] [pid 29284:tid 472] AH00456: Apache Lounge VS17 Server built: Oct 18 2023 13:03:18
+[Mon Mar 23 01:19:33.142021 2026] [core:notice] [pid 29284:tid 472] AH00094: Command line: 'D:\\xampp\\apache\\bin\\httpd.exe -d D:/XAMPP/apache'
+[Mon Mar 23 01:19:33.156021 2026] [mpm_winnt:notice] [pid 29284:tid 472] AH00418: Parent: Created child process 23884
+[Mon Mar 23 01:19:33.667145 2026] [ssl:warn] [pid 23884:tid 488] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 23 01:19:33.783295 2026] [ssl:warn] [pid 23884:tid 488] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 23 01:19:33.851290 2026] [mpm_winnt:notice] [pid 23884:tid 488] AH00354: Child: Starting 150 worker threads.
+'question' is not recognized as an internal or external command,
+operable program or batch file.
+'option1' is not recognized as an internal or external command,
+operable program or batch file.
+'option2' is not recognized as an internal or external command,
+operable program or batch file.
+'option3' is not recognized as an internal or external command,
+operable program or batch file.
+'option4' is not recognized as an internal or external command,
+operable program or batch file.
+'correct_option' is not recognized as an internal or external command,
+operable program or batch file.
+'question' is not recognized as an internal or external command,
+operable program or batch file.
+'option1' is not recognized as an internal or external command,
+operable program or batch file.
+'option2' is not recognized as an internal or external command,
+operable program or batch file.
+'option3' is not recognized as an internal or external command,
+operable program or batch file.
+'option4' is not recognized as an internal or external command,
+operable program or batch file.
+'correct_option' is not recognized as an internal or external command,
+operable program or batch file.
+'question' is not recognized as an internal or external command,
+operable program or batch file.
+'option1' is not recognized as an internal or external command,
+operable program or batch file.
+'option2' is not recognized as an internal or external command,
+operable program or batch file.
+'option3' is not recognized as an internal or external command,
+operable program or batch file.
+'option4' is not recognized as an internal or external command,
+operable program or batch file.
+'correct_option' is not recognized as an internal or external command,
+operable program or batch file.
+'question' is not recognized as an internal or external command,
+operable program or batch file.
+'option1' is not recognized as an internal or external command,
+operable program or batch file.
+'option2' is not recognized as an internal or external command,
+operable program or batch file.
+'option3' is not recognized as an internal or external command,
+operable program or batch file.
+'option4' is not recognized as an internal or external command,
+operable program or batch file.
+'correct_option' is not recognized as an internal or external command,
+operable program or batch file.

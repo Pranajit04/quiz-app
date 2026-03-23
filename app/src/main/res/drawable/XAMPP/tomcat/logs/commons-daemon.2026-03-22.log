@@ -1,0 +1,9 @@
+[2026-03-22 13:27:10] [info]  [ 7140] Apache Commons Daemon procrun (1.3.4.0 64-bit) started.
+[2026-03-22 13:27:11] [info]  [ 7140] Running Service 'Tomcat'...
+[2026-03-22 13:27:11] [info]  [13772] Starting service...
+[2026-03-22 13:27:12] [info]  [13772] Service started in 1394 milliseconds.
+[2026-03-22 13:28:08] [info]  [ 7140] Service SERVICE_CONTROL_STOP signalled.
+[2026-03-22 13:28:09] [info]  [24160] Stopping service...
+[2026-03-22 13:28:10] [info]  [24160] Service stop thread completed.
+[2026-03-22 13:28:10] [info]  [ 7140] Run service finished.
+[2026-03-22 13:28:10] [info]  [ 7140] Apache Commons Daemon procrun finished.
