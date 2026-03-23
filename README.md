@@ -106,6 +106,11 @@ com.example.quizapp
 
 ##Ui Interface 
 <img width="383" height="828" alt="Screenshot 2026-03-24 002301" src="https://github.com/user-attachments/assets/3dcb1be9-68aa-4eb8-a792-e308a46b1b6d" />
+
+
+--
+
+
 Right now only maths quiz is available in this Quiz App 1.0 version  
 
 
