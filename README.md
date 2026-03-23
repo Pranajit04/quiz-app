@@ -121,10 +121,10 @@ com.example.quizapp
 
 
 
---
+---
 
 
-Right now only maths quiz is available in this Quiz App 1.0 version  
+## Right now only maths quiz is available in this Quiz App 1.0 version  
 
 
 ## Application Flow
